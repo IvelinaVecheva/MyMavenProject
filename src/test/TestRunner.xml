@@ -1,0 +1,11 @@
+<suite name="Suite1" parallel="classes" verbose="1" >
+<parameter name="a" value = "5"/>
+    <parameter name="b" value = "6"/>
+
+    <test name="Suite1">
+        <classes>
+            <class name="MySimpleTest" />
+            <class name="AssertionsTest" />
+        </classes>
+    </test>
+</suite>
