@@ -1,0 +1,15 @@
+<suite name="Suite1" verbose="1" parallel="classes">
+    <test name="Regression1">
+        <classes>
+        <!--    <class name="selenium.HerokuAppTests"/> -->
+            <class name="selenium.AddRemoveElements"/>
+            <class name="selenium.BasicAuth"/>
+            <class name="selenium.Checkboxes"/>
+            <class name="selenium.ContextMenu"/>
+            <class name="selenium.DragAndDrop"/>
+            <class name="selenium.Dropdown"/>
+            <class name="selenium.Hovers"/>
+
+        </classes>
+    </test>
+</suite>
